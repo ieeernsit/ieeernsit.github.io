@@ -8,8 +8,9 @@
 	font-stretch: ultra-expanded;
 	font-size:100px;
 	text-align: center;
-	color:black;
+	color:blue;
 	float:right;
+	padding:275px;
 }
 
 h3{
@@ -73,8 +74,7 @@ html, body {
 }
 button{
 	background-color: #333c42;
-	font-color:white;
- 	font-size: 100%;
+	font-size: 100%;
  	font-style: italic;
  	border:0;
  	padding:0;
