@@ -306,8 +306,8 @@ button{
   }
 }
 .expand {
-  background-color: #333c42;
-  color:#333c42;
+  background-color:#333c42;
+  color:white;
   cursor: pointer;
   padding: 18px;
   width: 100%;
