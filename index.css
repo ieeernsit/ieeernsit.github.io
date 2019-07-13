@@ -1,24 +1,23 @@
-.heading img{
-	float:left;
-	width:20px;
-	height:20px;
-}
 .heading h1{
 	font-family:sans-serif;
 	font-stretch: ultra-expanded;
 	font-size:100px;
 	text-align: center;
-	color:blue;
-	float:right;
+	color:black;
 	padding:275px;
 }
+/*.heading img{
+	padding-left: 20px;
+	width:20px;
+	height:20px;
+}*/
 
 h3{
 	
 	font-family:Almendra;
 }
 h3{
-	color:white;
+	color:black;
 }
 
 #hide-nav a {
