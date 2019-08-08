@@ -1,3 +1,8 @@
+/*header {
+  background-image: url(image.png);
+  /*color: #FFFFFF;*/
+  /*padding: 150px 0;
+}*/
 #hide-nav a {
   position:absolute;
   left:-100px;
@@ -101,7 +106,7 @@ h2{
 
 
 header {
-  background: #819FF7;
+  background: url('bg1.jpg');
   color: #FFFFFF;
   padding: 150px 0;
 }
@@ -297,15 +302,19 @@ blockquote {
 }
 
 @media screen and (max-width: 600px){
-  #hide-nav a {
-    font-size: 18px;
-    text-decoration: none;
-    color: white;
-    padding: 8px;
-    border-radius: 0 5px 0 5px;
-    width: 95px;
-    font-family: 'BenchNine';
+  .show-nav{
+  height: 100%; 
+  width: 0; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
 
+  
   }
   h1{
     
@@ -313,7 +322,7 @@ blockquote {
     letter-spacing: 18.7px;
   }
   h2{
-    line-height:2;
+    line-height:1;
     font-size:35px;
     letter-spacing:0.225em;
     font-weight:400;
