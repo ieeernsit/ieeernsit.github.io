@@ -119,9 +119,7 @@ body {
   transition: margin-left .5s;
   padding: 16px;
 }
-a{
-  color:black;
-}
+
 
 section {
   padding: 100px 0;
@@ -256,7 +254,7 @@ header p {
 }
 
 a {
-  background: #3F51B5;
+  background: black;
   color: #FFFFFF;
   padding: 8px 20px;
   text-transform: uppercase;
