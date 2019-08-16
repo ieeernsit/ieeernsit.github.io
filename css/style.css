@@ -70,14 +70,14 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: black;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
 }
 
 .sidebar a {
-  padding: 8px 8px 8px 32px;
+  padding: 8px 8px 8px px;
   text-decoration: none;
   font-size: 25px;
   color: #818181;
@@ -92,7 +92,7 @@ body {
 
 .sidebar .closebtn {
   position: absolute;
-  top: 0;
+  top: -10px;
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
@@ -109,6 +109,7 @@ body {
   top:0px;
 
 }
+
 
 .openbtn:hover {
   background-color: #444;
@@ -245,7 +246,7 @@ header p {
 .timeline-img {
   width: 30px;
   height: 30px;
-  background: #3F51B5;
+  background:   #111d4d;
   border-radius: 50%;
   position: absolute;
   left: 50%;
