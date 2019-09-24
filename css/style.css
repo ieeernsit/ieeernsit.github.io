@@ -122,9 +122,13 @@ body {
 
 }
 img{
-  padding-left: 12%;
-  max-width: 90%;
-  height: auto;
+  padding-left: 10%;
+max-width: 25%;
+height: auto;
+padding-right: 5%;
+padding-top: -50%;
+margin-top: -10%;
+margin-left:-30%;
 
 }
 p{
@@ -150,9 +154,9 @@ body {
 }
 
 h1 {
-  line-height:0;
+  line-height:0.6;
   letter-spacing:50px;
-  font-family: 'Ultra';
+  font-family: 'Notable', sans-serif;
   font-size: 100px;
   text-transform: uppercase;
 
@@ -160,10 +164,10 @@ h1 {
 }
 h2{
   letter-spacing:0.258em;
-  line-height:5;
+  line-height:150px;
   font-weight:500;
-  font-size:40px;
-  font-family: 'Ultra';
+  font-size:56px;
+  font-family: 'Audiowide', cursive;
   font-weight:400;
   text-transform:uppercase;
 }
@@ -349,6 +353,12 @@ blockquote {
 }
 
 @media screen and (max-width: 768px) {
+  h2{
+    line-height: 1.5;
+  }
+  header{
+    padding: 
+  }
   .timeline::before {
     left: 50px;
   }
