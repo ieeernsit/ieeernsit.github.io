@@ -60,7 +60,7 @@
   }
 }*/
 body {
-  font-family: "Lato", sans-serif;
+  font-family: 'Audiowide', cursive;
 }
 .flex-container{
   display: flex;
@@ -154,7 +154,8 @@ html, body {
 }
 
 body {
-  font-family: 'Roboto';
+  font-family: 'Audiowide', cursive;
+  
   font-size: 17px;
   font-weight: 400;
   background-color: #eee;
@@ -362,6 +363,7 @@ blockquote {
 @media screen and (max-width: 768px) {
   h2{
     line-height: 1.5;
+    font-family: 'Audiowide', cursive;
   }
   header{
     padding: 
@@ -445,6 +447,7 @@ blockquote {
     letter-spacing: 18.7px;
   }
   h2{
+    font-family: 'Audiowide', cursive;
     line-height:1;
     font-size:35px;
     letter-spacing:0.225em;
@@ -455,12 +458,12 @@ blockquote {
     font-size: 30px;
   }
   .flex-container{
-        display: flex;
-    max-width: 100%;
+    display: flex;
+    max-width:50%;
     padding: 1px;
     margin-bottom: 10px;
     margin-top: -13%;
-    margin-left: 2%;
+    margin-left: 22%;
 }
   
       
