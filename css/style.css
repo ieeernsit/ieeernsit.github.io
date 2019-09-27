@@ -103,7 +103,7 @@ body {
 
 .sidebar .closebtn {
   position: absolute;
-  top: 0px;
+  top: -10px;
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
@@ -439,6 +439,15 @@ blockquote {
   @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
+  .flex-container{
+  display: flex;
+  max-width: 20%;
+  padding:10px;
+  margin-bottom:10px;
+  margin-top:-13%;
+  margin-left:22%;
+
+}
 }
   }
   h1{
