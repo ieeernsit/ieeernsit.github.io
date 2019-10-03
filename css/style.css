@@ -137,6 +137,7 @@ img{
   padding-left: 12%;
   max-width: 90%;
   height: auto;
+  
 }
 p{
   font-size: 50px;
@@ -307,7 +308,7 @@ a:hover, a:active, a:focus {
 }
 
 .timeline-item:nth-child(2) .timeline-img-header {
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("https://hd.unsplash.com/photo-1458530970867-aaa3700e966d") center center no-repeat;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("pyicon.jpg@") center center no-repeat;
   background-size: cover;
 }
 .timeline-item:nth-child(5) .timeline-img-header {
@@ -445,7 +446,7 @@ blockquote {
   padding:10px;
   margin-bottom:10px;
   margin-top:-13%;
-  margin-left:22%;
+  margin-left:15%;
 
 }
 }
