@@ -319,7 +319,7 @@ a:hover, a:active, a:focus {
   background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("techcharades.jpeg") center center no-repeat;
   background-size: cover;
 }
-.timeline-item:nth-child(8) .timeline-img-header {
+.timeline-item:nth-child(7) .timeline-img-header {
   background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("codathon.jpeg") center center no-repeat;
   background-size: cover;
 }
@@ -344,12 +344,12 @@ a:hover, a:active, a:focus {
   left: 20px;
 }
 
-blockquote {
+/*blockquote {
   margin-top: 30px;
   color: #757575;
   border-left-color: #3F51B5;
   padding: 0 20px;
-}
+}*/
 
 .date {
   background: #2E64FE;
