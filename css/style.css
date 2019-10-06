@@ -312,7 +312,7 @@ a:hover, a:active, a:focus {
   background-size: cover;
 }
 .timeline-item:nth-child(5) .timeline-img-header {
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("hardware.jpeg") center center no-repeat;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("hardware1.jpeg") center center no-repeat;
   background-size: cover;
 }
 .timeline-item:nth-child(6) .timeline-img-header {
@@ -323,8 +323,8 @@ a:hover, a:active, a:focus {
   background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("codathon.jpeg") center center no-repeat;
   background-size: cover;
 }
-.timeline-item:nth-child(10) .timeline-img-header {
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("techcharades.jpeg") center center no-repeat;
+.timeline-item:nth-child(8) .timeline-img-header {
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("reversecoding.jpeg") center center no-repeat;
   background-size: cover;
 }
 .timeline-item:nth-child(11) .timeline-img-header {
@@ -333,7 +333,7 @@ a:hover, a:active, a:focus {
 }
 
 .timeline-img-header {
-  height: 400px;
+  height: 500px;
   position: relative;
   margin-bottom: 20px;
 }
