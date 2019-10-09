@@ -52,7 +52,9 @@
 <style>
 * {box-sizing: border-box}
 body {font-family: 'Audiowide', cursive; margin:0}
-.mySlides {display: none}
+/*.mySlides  {display: none
+  height:;
+}*/
 /*img {vertical-align: middle;
 	width:100%;
 	height:auto;
@@ -65,14 +67,28 @@ body {font-family: 'Audiowide', cursive; margin:0}
   max-height: 500px;
   position: relative;
   margin: auto;
+  box-shadow: 20%;
 }
+ AishwaryaKaranth-patch-1
 .slideshow-container img {vertical-align: middle;
 	width:100%;
 	height:auto;
 	max-height:100%;
+=======
+.mySlides  {
+  display: none
+  max-height:inherit;
+}
+.mySlides img {
+	vertical-align: middle;
+	width:inherit;
+	max-height:500px;
+	
+ master
 	max-width:100%;
 	box-shadow:5px 5px 5px;
 	overflow:auto;
+	object-fit:contain;
 }
 /*img {
 	vertical-align: middle;
@@ -186,16 +202,17 @@ body {font-family: 'Audiowide', cursive; margin:0}
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 450px) {
   .prev, .next,.text {font-size: 11px}
+
   .flex-container{
-      display: flex;
+    display: flex;
     max-width: 100%;
     padding: 1px;
     margin-bottom: 10px;
     margin-top: -13%;
-    margin-left: 2%;
-}@
+    margin-left: -10%;
+}
 
 }
 }
@@ -206,7 +223,7 @@ body {font-family: 'Audiowide', cursive; margin:0}
 <div class="slideshow-container">
 
 <div class="mySlides">
-  <div class="numbertext">1 / 9</div>
+  <div class="numbertext">1 / 16</div>
   
   	<img src="nal.jpeg">
   
@@ -214,7 +231,7 @@ body {font-family: 'Audiowide', cursive; margin:0}
 </div>
 
 <div class="mySlides">
-  <div class="numbertext">2 / 9</div>
+  <div class="numbertext">2 / 16</div>
   
   	<img src="nal1.jpeg" style="width:100%">
   
@@ -222,43 +239,74 @@ body {font-family: 'Audiowide', cursive; margin:0}
 </div>
 
 <div class="mySlides">
-  <div class="numbertext">3 / 9</div>
+  <div class="numbertext">3 / 16</div>
  
   <img src="nal2.jpeg" style="width:100%">
   
   <div class="text">Industrial Visit to NAL</div>
 </div>
 <div class="mySlides">
-  <div class="numbertext">4 / 9</div>
+  <div class="numbertext">4 / 16</div>
   
   	<img src="wiesummit3.jpeg" style="width:100% height:50%">
   
   <div class="text">IEEE WIE Leadership Summit</div>
 </div>
 <div class="mySlides">
-  <div class="numbertext">5 / 9</div>
+  <div class="numbertext">5 / 16</div>
   <img src="wiesummit.jpeg" style="width:100%">
   <div class="text">IEEE WIE Leadership Summit</div>
 </div>
 <div class="mySlides">
-  <div class="numbertext">6 / 9</div>
+  <div class="numbertext">6 / 16</div>
   <img src="wiesummit1.jpeg" style="width:100%">
   <div class="text">IEEE WIE Leadership Summit</div>
 </div>
 <div class="mySlides">
-  <div class="numbertext">7 / 9</div>
+  <div class="numbertext">7 / 16</div>
   <img src="nokia.jpeg" style="width:100%">
   <div class="text">University day at Nokia</div>
 </div>
 <div class="mySlides">
-  <div class="numbertext">8 / 9</div>
+  <div class="numbertext">8 / 16</div>
   <img src="nokia2.jpeg" style="width:100%">
   <div class="text">University day at Nokia</div>
 </div>
 <div class="mySlides">
-  <div class="numbertext">9 / 9</div>
+  <div class="numbertext">9 / 16</div>
   <img src="nokia3.jpeg" style="width:100%">
   <div class="text">University day at Nokia</div>
+</div>
+
+<div class="mySlides">
+  <div class="numbertext">11 / 16</div>
+  <img src="py2.jpeg" style="width:100%">
+  <div class="text">Pyhton Workshop by Technoids</div>
+</div>
+<div class="mySlides">
+  <div class="numbertext">12/ 16</div>
+  <img src="py3.jpeg" style="width:100%">
+  <div class="text">Python workshop by Technoids</div>
+</div>
+<div class="mySlides">
+  <div class="numbertext">13/ 16</div>
+  <img src="py4.jpeg" style="width:100% height:90%">
+  <div class="text">Python workshop by Technoids</div>
+</div>
+<div class="mySlides">
+  <div class="numbertext">14/ 16</div>
+  <img src="py5.jpeg" style="width:100%">
+  <div class="text">Python workshop by Technoids</div>
+</div>
+<div class="mySlides">
+  <div class="numbertext">15/ 16</div>
+  <img src="py6.jpeg" style="width:100%">
+  <div class="text">Python workshop by Technoids</div>
+</div>
+<div class="mySlides">
+  <div class="numbertext">16/ 16</div>
+  <img src="py7.jpeg" style="width:100%">
+  <div class="text">Python workshop by Technoids</div>
 </div>
 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -269,7 +317,13 @@ body {font-family: 'Audiowide', cursive; margin:0}
 <div style="text-align:center">
   <span class="dot" onclick="currentSlide(1)"></span> 
   <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+  <span class="dot" onclick="currentSlide(9)"></span> 
 </div>
 
 <script>

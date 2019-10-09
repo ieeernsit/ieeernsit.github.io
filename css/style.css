@@ -103,7 +103,7 @@ body {
 
 .sidebar .closebtn {
   position: absolute;
-  top: 0px;
+  top: -10px;
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
@@ -137,6 +137,7 @@ img{
   padding-left: 12%;
   max-width: 90%;
   height: auto;
+  
 }
 p{
   font-size: 50px;
@@ -307,23 +308,23 @@ a:hover, a:active, a:focus {
 }
 
 .timeline-item:nth-child(2) .timeline-img-header {
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("https://hd.unsplash.com/photo-1458530970867-aaa3700e966d") center center no-repeat;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("pyicon.jpg") center center no-repeat;
   background-size: cover;
 }
 .timeline-item:nth-child(5) .timeline-img-header {
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("https://hd.unsplash.com/photo-1444093826349-9ce8c622f4f3") center center no-repeat;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("hardwarehackathon.jpeg") center center no-repeat;
   background-size: cover;
 }
 .timeline-item:nth-child(6) .timeline-img-header {
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("https://hd.unsplash.com/photo-1471479917193-f00955256257") center center no-repeat;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("techcharades.jpeg") center center no-repeat;
+  background-size: cover;
+}
+.timeline-item:nth-child(7) .timeline-img-header {
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("codathon.jpeg") center center no-repeat;
   background-size: cover;
 }
 .timeline-item:nth-child(8) .timeline-img-header {
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("https://hd.unsplash.com/photo-1466840787022-48e0ec048c8a") center center no-repeat;
-  background-size: cover;
-}
-.timeline-item:nth-child(10) .timeline-img-header {
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("https://hd.unsplash.com/photo-1447639703758-f525f36456bf") center center no-repeat;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("reversecoding.jpeg") center center no-repeat;
   background-size: cover;
 }
 .timeline-item:nth-child(11) .timeline-img-header {
@@ -332,7 +333,7 @@ a:hover, a:active, a:focus {
 }
 
 .timeline-img-header {
-  height: 200px;
+  height: 500px;
   position: relative;
   margin-bottom: 20px;
 }
@@ -343,12 +344,12 @@ a:hover, a:active, a:focus {
   left: 20px;
 }
 
-blockquote {
+/*blockquote {
   margin-top: 30px;
   color: #757575;
   border-left-color: #3F51B5;
   padding: 0 20px;
-}
+}*/
 
 .date {
   background: #2E64FE;
@@ -439,6 +440,15 @@ blockquote {
   @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
+  .flex-container{
+  display: flex;
+  max-width: 20%;
+  padding:10px;
+  margin-bottom:10px;
+  margin-top:-13%;
+  margin-left:15%;
+
+}
 }
   }
   h1{
@@ -463,7 +473,7 @@ blockquote {
     padding: 1px;
     margin-bottom: 10px;
     margin-top: -13%;
-    margin-left: 22%;
+    margin-left: 12%;
 }
   
       
