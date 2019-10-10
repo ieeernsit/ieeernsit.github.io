@@ -311,6 +311,11 @@ a:hover, a:active, a:focus {
   background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("pyicon.jpg") center center no-repeat;
   background-size: cover;
 }
+.timeline-item:nth-child(4) .timeline-img-header {
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("poster.jpg") center center no-repeat;
+  background-size: cover;
+}
+
 .timeline-item:nth-child(5) .timeline-img-header {
   background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("hardwarehackathon.jpeg") center center no-repeat;
   background-size: cover;
