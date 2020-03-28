@@ -442,16 +442,6 @@ a:hover, a:active, a:focus {
     transition:margin-left,.5s;
     padding:20px;
   }
-  footer{
-    margin-left:0rem;
-    margin-bottom:0rem;
-  }
-  .fa fa-facebook{
-  }
-  .fa fa-twitter{
-  }
-  .fa fa-instagram{
-  }
   @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
