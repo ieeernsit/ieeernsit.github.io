@@ -7,23 +7,79 @@
   <link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet"> 
   
   <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
 
-      <link rel="stylesheet" href="css/style.css">
+  
+@media only screen and (max-width: 600px) {
+
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+  .bg-light {
+    background-color: #0b6be6a6 !important;
+}
+}
+/*@media only screen and(min-width: 610px){
+  p{
+    text-align:left;
+    margin-left:1rem;
+
+  }
+  h1{
+    font-weight: ;
+
+  }
+}*/
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(8, 17, 153, 0.71);
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #280ee18c;
+}
+.h4, h4 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    font-stretch: expanded;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-color: blue;
+    color: #2a0cbb;
+    font-family: 'Playfair Display', serif;
+}
+</style>
 
   
 </head>
 <body>
   <header>
-    <div class="container text-center">
-    <div class="container text-center">
-      <div class="flex-container">
+    
+    
+      <!--<div class="flex-container">
+        <img src="ieee-logo.png">
+        <img src="ieee-bs.png">
+      </div>
+      <h1>IEEE</h1><br>
+      <h2>RNSIT STUDENT BRANCH</h2>-->
+      
+  <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <div class="flex-container">
         <img src="ieee-logo.png">
         <img src="ieee-bs.png">
       </div>
       <h1>IEEE</h1><br>
       <h2>RNSIT STUDENT BRANCH</h2>
-      
-    </div>
+  </div>
+</div>
   </header>
   <div id="main">
   <button class="openbtn" onclick="openNav()">☰ More</button>  
@@ -34,7 +90,7 @@
   <a href="about.html">About</a>
   <a href="team.html">Team</a>
   <a href="#">Gallery</a>
-  <a href="#">IEEE Bangalore Section events</a>
+  <a href="ieeebs.html">IEEE Bangalore Section events</a>
   
 </div>
 
